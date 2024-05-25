@@ -18,10 +18,12 @@ API Documentation
 5. DELETE : Delete a task by ID. => /tasks/id
 
 Report
+
 -Project Overview
 This project is a simple RESTful API for managing a collection of tasks (CRUD opration), implemented using Node.js and Express.js. The API supports basic CRUD operations and stores data in memory.
 
 -Approach
+
 1.Server Setup: Used Express.js to set up the server and handle routing.
 2.In-Memory Storage: Used an array to store tasks, simulating a database.
 3.CRUD Operations: Implemented endpoints to create, read, update, and delete tasks.
@@ -30,6 +32,7 @@ This project is a simple RESTful API for managing a collection of tasks (CRUD op
 6.Testing: Tested the API using Postman to ensure all endpoints work as expected.
 
 -Algorithm Choices
+
 1.ID Generation: Used a simple counter (currentId) to generate unique IDs for tasks.
 2.Data Storage: Chose an array to store tasks because it's a simple and effective way to manage a small dataset in memory.
 3.Validation: Added checks to ensure that required fields are present and return 400 Bad Request if they're missing.
