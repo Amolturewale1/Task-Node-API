@@ -77,6 +77,7 @@ app.put("/tasks/:id",(req,res)=>{
 
 });
 
+//delete task by id
 app.delete("/tasks/:id",(req,res)=>{
     
     const taskIndex =tasks.findIndex(t=>t.id===parseInt(req.params.id));
